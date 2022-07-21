@@ -1,0 +1,141 @@
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+}
+
+.Card {
+  width: 350px;
+  height: 450px;
+  margin: auto;
+  display: block;
+  align-content: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.top {
+  background-image: url("../images/illustration-hero.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 50%;
+  display: block;
+}
+
+.bottom {
+  text-align: center;
+  padding: 10%;
+  background-color: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.Discription {
+  margin: 10px 0 40px 0;
+  font-size: 0.9rem;
+  color: hsl(224, 23%, 55%);
+}
+
+.prise {
+  color: hsl(223, 47%, 23%);
+  font-size: 1rem;
+  font-weight: 700;
+  display: flex;
+  align-items: left;
+  margin: 5% 0;
+}
+
+.prise-heading {
+  margin-left: 10px;
+}
+
+span {
+  font-size: 0.8rem;
+  color: hsl(224, 23%, 55%);
+}
+
+.link {
+  display: inline-block;
+  font-size: 0.9rem;
+  margin-left: 70px;
+  ;
+  margin-top: 3%;
+}
+
+.image2 {
+  width: 40px;
+  height: 40px;
+}
+
+.btn {
+  padding: 20px;
+  width: 100%;
+  margin: 20px 0 20px 0;
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700
+}
+
+.btn:hover {
+  background-color: hsl(224, 23%, 65%);
+}
+
+.order {
+  color: hsl(224, 23%, 55%);
+  font-weight: 900;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+
+
+
+
+@media (max-width:768px) {
+  body {
+    font-size: 1.3rem;
+  }
+
+  .Card {
+    width: 400px;
+    height: 550px;
+    padding: 5%;
+  }
+
+  .Discription {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .link {
+    margin-left: 100px;
+
+  }
+}
